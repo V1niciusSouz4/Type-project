@@ -1,7 +1,7 @@
 import express from 'express';
 import { createCourse } from './routes';
 
-const app = express();
+const app = express()
 
 app.get('/', createCourse);
 
